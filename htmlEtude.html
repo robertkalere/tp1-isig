@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="exemple.js"></script>
+    
+    <style>
+        body{
+            background-color: red;
+        }
+        h1{
+            color: blue;
+            font-family: 'Times New Roman';
+            font-size: 300%;
+            border: 2px solid powderblue;
+            padding: 30px;
+            margin: 50px;
+        }
+        a:link{
+            color: blue;
+        }
+        a:visited{
+            color: pink;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">un paragraphe</p>
+    <button type="button" onclick="myfunction()">try it</button>
+    <script>
+        function myfunction(){
+            document.getElementById("demo").innerHTML="change paragraphe";
+        }
+        
+       
+    </script><br />
+    <button onclick="this.innerHTML=Date()">the time is?</button>
+    <button onclick="displayDate()">the time is?</button>
+    <script>
+        function displayDate(){
+            document.getElementById("demo").innerHTML=date();
+        }
+    </script>
+    <!--<p id="demo">paragraph</p>
+    <button type="button" onclick="myfunction()">try it</button>
+   <h2 id="C4">chapter 4</h2>
+    <h1 style="background-color: rgb(255,99,71);">this page is heading</h1>
+    <p>this is some text</p>
+    <hr>
+    <h2 style="background-color:yellow;">this page is heading</h2>
+    <p>this is some text</p>
+    <hr>
+   
+    <h3 style="font-size:100%;text-align: center;">this page is heading</h3>
+    <h3 style="font-size:100%;text-align: center;">this page is heading</h3>
+    <h3 style="font-size:100%;text-align: center;">this page is heading</h3>
+    <h4>this page is heading</h4>
+    <h5>this page is heading</h5>
+    <b>this page is heading</b></br>
+    <strong>this page is heading</strong>
+    <p>my favorite is <del>blue</del><ins> red.</ins></p>
+    <p style="color:red;">this is a red paragraph</p>
+    <a
+    href="https://www.w3schools.com" target="_blank">this is a link</a>
+    <p><q>salut</q></p>
+    <p>the <abbr title="world health organisation">WHO</abbr> Was founded in 1948</p>
+    <a 
+    href="mailto:kakulerobert319@gmail.com">
+    send email
+    </a></br>
+    <a href="html_demo.html#C4">jump to chapter 4</a>
+
+    <form action="/action_pge.php">
+        <label for="fname">first name:</label><br>
+        <input type="text" id="fname" name="fname" value="robert" readonly><br>
+        <label for="lname">last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="hidden" id="cudtid" name="custid" value="3487">
+        <input type="reset" value="reset"><br>
+        <canvas id="mycanvas" width="200" height="100" style="border:1px solid #000000;">
+        </canvas>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"></circle>
+        </svg><br>
+        <iframe width="200" height="100"
+        src="https://www.youtube.com/embeded/tgbNymZ7vqY"></iframe>
+       
+    </form>-->
+    
+</body>
+</html>
